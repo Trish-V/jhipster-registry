@@ -27,10 +27,8 @@ logging:
     
 eureka:
     server:
-        maxThreadsForPeerReplication: 0
-        peer-node-read-timeout-ms: 50
+        maxThreadsForPeerReplication: 0 
     client:
-        registerWithEureka: false
-        fetchRegistry: false
+        registerWithEureka: false 
         service-url:
             defaultZone: http://localhost:8761/eureka

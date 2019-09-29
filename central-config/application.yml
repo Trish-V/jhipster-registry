@@ -27,7 +27,4 @@ logging:
     
 eureka:
     server:
-        maxThreadsForPeerReplication: 0 
-    client:
-        service-url:
-            defaultZone: http://localhost:8761/eureka
+        maxThreadsForPeerReplication: 0  

@@ -24,3 +24,13 @@ jhipster:
 logging:
     path: /tmp
     file: ${spring.application.name}.log
+    
+eureka:
+    server:
+        maxThreadsForPeerReplication: 0
+        peer-node-read-timeout-ms: 1500
+    client:
+        registerWithEureka: false
+        fetchRegistry: false
+        service-url:
+            defaultZone: http://localhost:8761/eureka

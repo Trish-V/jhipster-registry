@@ -4,8 +4,8 @@
 
 # Property used on app startup to check the config server status
 configserver:
-    name: ********************** Stargate Registry config server ************************
-    status: ********* Connected to the JHipster Registry config server Artifex 0.0.1! **************
+    name: 00000000000000000000 Stargate Registry config server 000000000000000000000
+    status: 000000000000000000000 Connected to the JHipster Registry config server Artifex 0.0.1! 00000000000000
 
 # Default JWT secret token (to be changed in production!)
 jhipster:
